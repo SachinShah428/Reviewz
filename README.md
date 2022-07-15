@@ -32,6 +32,7 @@ Functionality :
 
 - [x] Users can update the TV series related data( Posted by them only ). 
 
-![image](https://user-images.githubusercontent.com/96943151/179177660-37394889-6f0d-4725-8d21-abaa70001d10.png)
+![image](https://user-images.githubusercontent.com/96943151/179178138-9b513467-ed01-43c9-8968-73f8a1f993e0.png)
+
 
 
