@@ -31,6 +31,7 @@ Functionality :
 - [x] Users should be able to add or delete a show from the list. 
 
 - [x] Users can update the TV series related data( Posted by them only ). 
+- [ ] 
 ![image](https://user-images.githubusercontent.com/96943151/179177660-37394889-6f0d-4725-8d21-abaa70001d10.png)
 
 
