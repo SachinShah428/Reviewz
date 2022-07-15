@@ -30,5 +30,5 @@ Functionality :
 
 - [x] Users should be able to add or delete a show from the list. 
 
-- [x] Users can update the TV series related data. 
+- [x] Users can update the TV series related data( Posted by them only ). 
 
