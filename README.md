@@ -1,4 +1,4 @@
-# Reviewz
+# eReviews
 
 Instructions for initializing app:
 
