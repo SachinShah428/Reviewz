@@ -14,7 +14,6 @@ export const getPosts = () => async (dispatch) => {
 export const createPost = (post) => async (dispatch) => {
   try {
     const { data } = await api.createPost(post);
-
     dispatch({ type: CREATE, payload: data });
   } catch (error) {
     console.log(error);
@@ -23,24 +22,10 @@ export const createPost = (post) => async (dispatch) => {
 
 export const updatePost = ( post) => async (dispatch) => {
 
-   console.log ( post ) ;
   try {
-    const id = post._id ;
-    const { data } = await api.updatePost(id, post);
+    const { data } = await api.updatePost(post._id, post);
 
     dispatch({ type: UPDATE, payload: data });
-
-  } catch (error) {
-    console.log(error);
-  }
-};
-
-export const likePost = (id ) => async (dispatch) => {
-  const user = JSON.parse(localStorage.getItem('profile'));
-
-  try {
-    const { data } = await api.likePost(id, user );
-    dispatch({ type: LIKE, payload: data });
 
   } catch (error) {
     console.log(error);

@@ -2,13 +2,11 @@ import mongoose from 'mongoose';
 
 const postSchema = mongoose.Schema({
     title: String,
-    message: String,
-    tags: [String],
-    selectedFile: String,
-    Cname : String ,
+    streamingApp: String,
+    rating2 : Number ,
+    review: String,
     creator : String ,
     Cid : String ,
-    likes: { type: [String], default: [] },
     createdAt: {
         type: Date,
         default: new Date(),
